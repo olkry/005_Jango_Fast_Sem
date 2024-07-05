@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <link rel="stylesheet" href="/static/css/style.css">
+    <title>{% block title %}
+        Страница
+        {% endblock %}</title>
+</head>
+<body>
+<div>
+    <ul class="title">
+        <li>
+            <a href="/clothing/">Главная</a>
+        </li>
+        <li>
+            <a href="/shoes/">Обувь</a>
+        </li>
+        <li>
+            <a href="/jacket/">Куртки</a>
+        </li>
+    </ul>
+    {% block content %}
+    Тут пока пусто
+    {% endblock %}
+    <div class="copurayting">
+        <br>
+        <hr/>
+        <p>Все права защищены &copy;</p>
+    </div>
+</div>
+</body>
+</html>

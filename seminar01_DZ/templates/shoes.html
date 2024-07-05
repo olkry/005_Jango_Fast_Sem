@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div class="content shoes">
+        <div>
+            <br>
+            <img class="img" width="300px" src="/static/image/shoes1.jfif" alt="Андеды">
+            <h3>Прекрасные неубивашки</h3>
+            <button class="buttons" type="submit">Беру за 700</button>
+            <br>
+        </div>
+        <div>
+            <br>
+            <img class="img" width="300px" src="/static/image/shoes2.jfif" alt="Строго">
+            <h3>Великолепные классики</h3>
+            <button class="buttons" type="submit">400 и мы в расчёте</button>
+            <br>
+        </div>
+        <div>
+            <br>
+            <img class="img" width="300px" src="/static/image/shoes3.jfif" alt="Клоуны">
+            <h3>Средневековые подкрадули</h3>
+            <button class="buttons" type="submit">Не меньше 1000</button>
+            <br>
+        </div>
+    </div>
+{% endblock%}

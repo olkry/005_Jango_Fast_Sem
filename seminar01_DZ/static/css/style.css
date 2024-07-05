@@ -1,0 +1,56 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  padding: 20px;
+  background-color: rgb(255, 246, 235);
+}
+
+.content {
+  padding: 10px;
+  color: rgb(56, 3, 3);
+  background-color: rgb(245, 254, 254);
+}
+
+.shoes {
+  color: rgb(38, 15, 76);
+  background-color: rgb(254, 242, 254);
+}
+
+.jacket {
+  padding: 20px;
+}
+
+.img {
+  border-radius: 10px;
+}
+
+.inputer {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+.buttons {
+  padding: 10px 20px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
