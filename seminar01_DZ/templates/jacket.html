@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+
+{% block title %}
+    {{ super() }} - {{ title }}
+{% endblock %}
+
+{% block content %}
+    <div class="content jacket">
+        <div>
+            <br>
+            <img class="img" width="200px" src="/static/image/jacket1.jfif" alt="Апастна">
+            <h3>Уоу очень опасная ситуация, осторожнее</h3>
+            <form>
+                <input class="inputer" type="text" placeholder="Ну риал надо">
+                <button class="buttons" type="submit">Смертник</button>
+            </form>
+            <br>
+            
+        </div>
+        <div>
+            <br>
+            <img class="img" width="200px" src="/static/image/jacket2.jfif" alt="Пушно">
+            <h3>Пышный писец, сочный фейхоа, мамин симпатяга</h3>
+            <form>
+                <input class="inputer" type="text" placeholder="Ну... дело">
+                <button class="buttons" type="submit">Казанова буду</button>
+            </form>
+            <br>
+        </div>
+        <div>
+            <br>
+            <img class="img" width="200px" src="/static/image/jacket3.jfif" alt="Апастна2">
+            <h3>Очень хочется суету навести</h3>
+            <form>
+                <input class="inputer" type="text" placeholder="Бэк ту нулевые">
+                <button class="buttons" type="submit">Четка</button>
+            </form>
+            <br>
+        </div>
+    </div>
+{% endblock%}
