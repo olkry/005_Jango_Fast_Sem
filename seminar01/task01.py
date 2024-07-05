@@ -132,6 +132,7 @@ def contacts():
     context = {'title': 'Контакты'}
     return render_template('contacts.html', **context)
 
+# Продолжение на семинарах
 
 if __name__ == '__main__':
     app.run(debug=True)
